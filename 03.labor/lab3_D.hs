@@ -167,4 +167,26 @@ pDec2 x p = [i * (p ^ hatvany) | (i, hatvany) <- zip (szamjegyek x p) [0 ..]]
 
 -- IV. Írjunk egy Haskell függvényt, amely meghatározza a $$P(x) = a_0 + a_1 x + a_2 x^2 + \ldots + a_n x^n$$ polinom adott $x_0$ értékre való behelyettesítési értékét.
 
+
+aLs=[3,-2,5,-7]
+
+x0=2
+poli [] x0=0
+poli (a: aLs) x0= a+x0*(poli aLs)
+
 -- V. Ha adva van egy P pont koordinátája a kétdimenziós síkban, és adott az lsP pontok egy listája, írjunk egy Haskell függvényt, amely meghatározza azt az lsP-beli P1 pontot, amely legközelebb van a P ponthoz.
+type Pont =(Double,Double)
+
+lsP :: [Pont]
+lsP = [(2.5,5.6),(1.2, 4.5),(6,7)]
+
+p::Pont
+p=(3.6,8.9)
+
+tavolsag (x1,y1) (x2,y2) = sqrt((x1-x2)**2+(y1-y2)**2)
+ 
+minPont lsP p = foldl1 aux lsP
+ where
+  aux p1 p2 = if tavolsag p1 p <tavolsag p2 p then p1 else p2 
+
+minPont2 lsP p=minimumBy(compare 'on' tavolsag p) lsP
