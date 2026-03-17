@@ -1,4 +1,6 @@
 import Data.Foldable
+import Data.List (minimumBy)
+import Data.Function (on) 
 
 -- I. Mit csinálnak az alábbi függvényhívások, ahol az atlag a számok átlagát meghatározó függvény?
 
@@ -171,8 +173,8 @@ pDec2 x p = [i * (p ^ hatvany) | (i, hatvany) <- zip (szamjegyek x p) [0 ..]]
 aLs=[3,-2,5,-7]
 
 x0=2
-poli [] x0=0
-poli (a: aLs) x0= a+x0*(poli aLs)
+poli [] x0 = 0
+poli (a : aLs) x0 = a + x0 * (poli aLs x0)
 
 -- V. Ha adva van egy P pont koordinátája a kétdimenziós síkban, és adott az lsP pontok egy listája, írjunk egy Haskell függvényt, amely meghatározza azt az lsP-beli P1 pontot, amely legközelebb van a P ponthoz.
 type Pont =(Double,Double)
@@ -189,4 +191,4 @@ minPont lsP p = foldl1 aux lsP
  where
   aux p1 p2 = if tavolsag p1 p <tavolsag p2 p then p1 else p2 
 
-minPont2 lsP p=minimumBy(compare 'on' tavolsag p) lsP
+minPont2 lsP p = minimumBy (compare `on` tavolsag p) lsP
