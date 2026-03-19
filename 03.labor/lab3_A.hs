@@ -146,3 +146,23 @@ poli [] x = 0
 poli (a : aLs) x = a + x * (poli aLs x)
 
 -- V. Ha adva van egy P pont koordinátája a kétdimenziós síkban, és adott az lsP pontok egy listája, írjunk egy Haskell függvényt, amely meghatározza azt az lsP-beli P1 pontot, amely legközelebb van a P ponthoz.
+type Pont = (Double, Double)
+
+lsP :: [Pont]
+lsP = [(4.5, 6.2), (1.2, 3.4), (6, 8), (4.5, 2.4), (4.5, 6.1)]
+
+p :: Pont
+p = (3.4, 5.6)
+
+tavolsag (x1, y1) (x2, y2) = sqrt ((x1 - x2) ** 2 + (y1 - y2) ** 2)
+
+minTavolsag lsP p = foldl1 (\p1 p2 -> if tavolsag p1 p < tavolsag p2 p then p1 else p2) lsP
+
+minTavolsag2 lsP p = foldl1 aux lsP
+  where
+    aux p1 p2 = if tavolsag p1 p < tavolsag p2 p then p1 else p2
+
+minTavolsag3 [p1] _ = p1
+minTavolsag3 (p1 : p2 : ls) p
+  | tavolsag p1 p < tavolsag p2 p = minTavolsag3 (p1 : ls) p
+  | otherwise = minTavolsag3 (p2 : ls) p
