@@ -177,6 +177,7 @@ poli [] x0 = 0
 poli (a : aLs) x0 = a + x0 * (poli aLs x0)
 
 -- V. Ha adva van egy P pont koordinátája a kétdimenziós síkban, és adott az lsP pontok egy listája, írjunk egy Haskell függvényt, amely meghatározza azt az lsP-beli P1 pontot, amely legközelebb van a P ponthoz.
+
 type Pont =(Double,Double)
 
 lsP :: [Pont]
