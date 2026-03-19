@@ -143,11 +143,12 @@ pozAtlag2 ls = (atlag . filter (>0)) ls
 
 listaN ls n = [i |(idx, i)<-zip[1 ..] ls, mod idx n == 0]
 
+
 listaN2 ls n i
-  | mod i n == 0 = ls || i :listaN2 ls n (i+1)
-  | otherwise = listaN2 ls n (i+1)
+  | i >= length ls = []
+  | mod i n == 0 = ls !! i : listaN2 ls n (i + 1)
+  | otherwise = listaN2 ls n (i + 1)
 
-
--- -- tükrözi egy lista elemeit,
--- -- két módszerrel is meghatározza egy lista legnagyobb elemeinek pozícióit: a lista elemeit kétszer járja be, illetve úgy hogy a lista elemeit csak egyszer járja be,
--- -- meghatározza egy lista leggyakrabban előforduló elemét.
+--  tükrözi egy lista elemeit,
+-- két módszerrel is meghatározza egy lista legnagyobb elemeinek pozícióit: a lista elemeit kétszer járja be, illetve úgy hogy a lista elemeit csak egyszer járja be, 
+-- meghatározza egy lista leggyakrabban előforduló elemét.
