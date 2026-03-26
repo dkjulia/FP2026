@@ -125,7 +125,7 @@ fibo2 = fiboSg 0 1 0
 
 fiboAB a b = dropWhile (< a) $ takeWhile (< b) fibo2
 
-fiboAB a b = (dropWhile (< a) . takeWhile (< b)) fibo2
+fiboAB2 a b = (dropWhile (< a) . takeWhile (< b)) fibo2
 
 -- III. Könyvtárfüggvények használata nélkül írjuk meg azt a Haskell függvényt, amely
 
