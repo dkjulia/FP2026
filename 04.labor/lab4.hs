@@ -1,3 +1,6 @@
+import Data.List
+import Data.Ord
+
 -- I. Definiáljuk azt a Haskell-listát, amely tartalmazza:
 
 -- az első n páros szám négyzetét,
@@ -152,3 +155,81 @@ listaN2 ls n i
 --  tükrözi egy lista elemeit,
 -- két módszerrel is meghatározza egy lista legnagyobb elemeinek pozícióit: a lista elemeit kétszer járja be, illetve úgy hogy a lista elemeit csak egyszer járja be, 
 -- meghatározza egy lista leggyakrabban előforduló elemét.
+
+
+listaN3 ls n = map snd (filter (\x -> mod (fst x) n == 0) (zip [1 ..] ls))
+
+-- - tükrözi egy lista elemeit,
+tukroz ls = reverse ls
+
+tukroz2 ls = map (\x -> read x :: Int) $ map (reverse . show) ls
+
+digitsToNumber :: [Int] -> Int
+digitsToNumber = foldl (\acc d -> acc * 10 + d) 0
+
+tukor3 ls = map (digitsToNumber . tukorSzam) ls
+  where
+    tukorSzam x
+      | x < 10 = [x]
+      | otherwise = mod x 10 : tukorSzam (div x 10)
+
+-- - két módszerrel is meghatározza egy lista legnagyobb elemeinek pozícióit: a lista elemeit kétszer járja be, illetve úgy hogy a lista elemeit csak egyszer járja be,
+maxElemPoz ls = [idx | (idx, i) <- zip [1 ..] ls, i == myMax]
+  where
+    myMax = maximum ls
+
+maxElemPoz2 (x : ls) = foldl aux (x, [1]) (zip ls [2 ..])
+  where
+    aux (currentMax, positions) (elem, i)
+      | elem > currentMax = (elem, [i])
+      | elem == currentMax = (elem, positions ++ [i])
+      | otherwise = (currentMax, positions)
+
+maxElemI ls = ids
+  where
+    maxElem = maximum ls
+    ids = [i | (i, elem) <- zip [1 ..] ls, elem == maxElem]
+
+maxElemI2 ls =
+  let maxElem = maximum ls
+      ids = [i | (i, elem) <- zip [1 ..] ls, elem == maxElem]
+   in ids
+
+maxElemI3 [] = []
+maxElemI3 (x : xs) = reverse positions
+  where
+    (_, positions) = foldl update (x, [0]) (zip xs [1 ..])
+    update (currentMax, positions) (elem, idx)
+      | elem > currentMax = (elem, [idx])
+      | elem == currentMax = (currentMax, idx : positions)
+      | otherwise = (currentMax, positions)
+
+maxElemI4 ls = getMaxi 1 maxElem ls []
+  where
+    maxElem = maximum ls
+    getMaxi _ _ [] res = res
+    getMaxi i maxe (k : ve) res
+      | k == maxe = getMaxi (i + 1) maxe ve (res ++ [i])
+      | otherwise = getMaxi (i + 1) maxe ve res
+
+-- - meghatározza egy lista leggyakrabban előforduló elemét.
+elof ls = maxElofElem
+  where
+    maxElofSzam = maximum $ map length $ (group . sort) ls
+    ls2 = map (\x -> (head x, length x)) $ (group . sort) ls
+    maxElofElem = filter (\x -> snd x == maxElofSzam) ls2
+
+leggyakoribb [] = []
+leggyakoribb ls = k : leggyakoribb ve
+  where
+    k = (kurrens, length [e | e <- ls, e == kurrens])
+    ve = [e | e <- ls, e /= kurrens]
+    kurrens = head ls
+
+leggyakoribb2 [] = error "ures lista"
+leggyakoribb2 ls = head $ maximumBy (comparing length) $ group $ sort ls
+
+leggyakoribb3 ls = head lgyE
+  where
+    elof = leggyakoribb ls
+    lgyE = sortOn (Down . snd) elof

@@ -95,3 +95,4 @@ pozSum ls = foldl (\res x -> if x > 0 then res + x else res) 0 ls
 parosSzorzat ls = foldl (\res x -> if even x then res * x else res) 1 ls
 
 negyzetSzamokN n = foldl (\res x -> res ++ x ^ 2) [] [1 .. n]
+
