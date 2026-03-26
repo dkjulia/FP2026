@@ -26,7 +26,7 @@ replicate' n e
   | n > 1 = e : replicate' (n - 1) e
   | otherwise = e : replicate' (n - 1) e
 
-eplicate2 n e
+replicate2 n e
   | n == 1 = [e]
   | otherwise = e : replicate' (n - 1) e
 
