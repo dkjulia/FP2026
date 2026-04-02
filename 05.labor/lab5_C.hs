@@ -139,3 +139,19 @@ negyzetSzamokN n = foldl (\res x -> res ++ [x ^ 2]) [] [1 .. n]
 --   zsuzsa 7.466666666666666
 --   levi 8.875
 --   ```
+
+atlagTu ls = [(nev, atlag jegyek) | (nev, jegyek) <- ls]
+  where
+    atlag ls2 = sum ls2 / fromIntegral (length ls2)
+
+atlagTu2 ls = mapM_ (\(nev, atlagJegyek) -> putStrLn (nev ++ " " ++ show atlagJegyek)) ls2
+  where
+    ls2 = [(nev, atlag jegyek) | (nev, jegyek) <- ls]
+    atlag ls2 = sum ls2 / fromIntegral (length ls2)
+
+main3 = do
+  let lsNevJegy = [("mari", [10, 6, 5.5, 8]), ("feri", [8.5, 9.5]), ("zsuzsa", [4.5, 7.9, 10]), ("levi", [8.5, 9.5, 10, 7.5])]
+      ls = ["a", "b"]
+  mapM_ (\(nev, atlagJegyek) -> putStrLn (nev ++ " " ++ show atlagJegyek)) (atlagTu lsNevJegy)
+  putStrLn "\nCsak meghivas\n"
+  atlagTu2 lsNevJegy
