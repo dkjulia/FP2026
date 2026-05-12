@@ -55,16 +55,19 @@ isIbanPresent iban ibans
 justNrLttr :: Foldable t => t Char -> Bool
 justNrLttr = all isAlphaNum
 
-getIbanLengthByCountry :: Eq t => t -> [(t, a)] -> a
-getIbanLengthByCountry _ [] = error "Nincs ilyen orszag"
+getIbanLengthByCountry :: Eq t => t -> [(t, a)] -> Maybe a
+getIbanLengthByCountry _ [] = Nothing
 getIbanLengthByCountry countryToFind ((country, ciLength) : xs)
-    | countryToFind == country = ciLength
+    | countryToFind == country = Just ciLength
     | otherwise = getIbanLengthByCountry countryToFind xs
 
-ibanCountryCorrect :: Eq a => [a] -> [([a], Int)] -> Bool
-ibanCountryCorrect iban countryLengthLs = length iban == getIbanLengthByCountry ibanCountry countryLengthLs
-    where
-        ibanCountry = take 2 iban
+ibanCountryCorrect :: [Char] -> [([Char], Int)] -> Bool
+ibanCountryCorrect iban countryLengthLs =
+  case getIbanLengthByCountry ibanCountry countryLengthLs of
+    Just len -> length iban == len
+    Nothing -> False
+  where
+    ibanCountry = take 2 iban
 
 replaceChar :: Char -> [Char]
 replaceChar c
@@ -103,7 +106,7 @@ mainII = do
     -- 1.
     print rendezett
     -- 2.
-    let iban = "GB82WEST12345698765432"
+    let iban = "TR330006100519786457841326"
         atcsoportositottIban = drop 4 iban ++ take 4 iban
         helyettesitettIban = concatMap replaceChar atcsoportositottIban
         ibanHelytelen = "GB82WEST12345698765132ABC"
@@ -118,6 +121,9 @@ mainII = do
     if isIbanCorrect iban orszagHossz
         then putStrLn (iban ++ " helyes")
         else putStrLn (iban ++ " helytelen")
+    let helyesIbanok = filter (\iban -> isIbanCorrect iban orszagHossz) rendezett
+    writeFile "09.labor/okIban.txt" (unlines helyesIbanok)
+      
 
 {- III. Egy szövegállományban egy adott személyről következő adatok vannak eltárolva:
 vezetéknév, keresztnév, születési dátum.
