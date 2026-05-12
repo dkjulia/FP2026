@@ -1,0 +1,13 @@
+4 primosztoi: 2 2
+2 primosztoi: 2
+6 primosztoi: 2 3
+-6 primosztoi: 
+67 primosztoi: 67
+12 primosztoi: 2 2 3
+98 primosztoi: 2 7 7
+324 primosztoi: 2 2 3 3 3 3
+123686 primosztoi: 2 61843
+12 primosztoi: 2 2 3
+56 primosztoi: 2 2 2 7
+-23 primosztoi: 
+0 primosztoi: 

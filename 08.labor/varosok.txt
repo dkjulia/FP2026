@@ -1,0 +1,10 @@
+Budapest,1750000,525
+Debrecen,200000,461
+Szeged,160000,280
+Miskolc,155000,236
+Pecs,145000,162
+Gyor,130000,175
+Nyiregyhaza,117000,274
+Kecskemet,110000,321
+Szekesfehervar,99000,170
+Szombathely,78000,97

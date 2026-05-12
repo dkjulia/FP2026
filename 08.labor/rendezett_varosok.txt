@@ -1,0 +1,10 @@
+Varos {vNev = "Szombathely", vNepSzam = 78000, vTerMeret = 97}
+Varos {vNev = "Szekesfehervar", vNepSzam = 99000, vTerMeret = 170}
+Varos {vNev = "Kecskemet", vNepSzam = 110000, vTerMeret = 321}
+Varos {vNev = "Nyiregyhaza", vNepSzam = 117000, vTerMeret = 274}
+Varos {vNev = "Gyor", vNepSzam = 130000, vTerMeret = 175}
+Varos {vNev = "Pecs", vNepSzam = 145000, vTerMeret = 162}
+Varos {vNev = "Miskolc", vNepSzam = 155000, vTerMeret = 236}
+Varos {vNev = "Szeged", vNepSzam = 160000, vTerMeret = 280}
+Varos {vNev = "Debrecen", vNepSzam = 200000, vTerMeret = 461}
+Varos {vNev = "Budapest", vNepSzam = 1750000, vTerMeret = 525}
