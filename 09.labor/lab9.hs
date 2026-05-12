@@ -1,4 +1,4 @@
-module Lab9 where 
+module Lab9 where
 import           Data.Char
 import           Data.List
 import qualified Data.Map as Map -- ghci-n belul :set -package containers
@@ -9,10 +9,10 @@ mainI :: IO ()
 mainI = do
     tartalom <- readFile "09.labor/szoveg.txt"
     putStrLn tartalom
-    let formazott = concat $ map (\x -> if elem x ".,!?;" then x : " " else [x]) tartalom
+    let formazott = (unwords . words) $ concatMap (\x -> if elem x ".,!?;" then x : " " else [x]) tartalom -- az (unwords . words) resz felel azert, hogy szigoruan csak 1 szokoz legyen a szavak kozott
     print formazott
-    {- let formazott = mapM_ (\x -> if elem x ".,!?;" then putStr (x:" ") else putStr [x]) tartalom
-    formazott -}
+    -- let formazott2 = mapM_ (\x -> if elem x ".,!?;" then putStr (x:" ") else putStr [x]) ((unwords . words) tartalom)
+    -- formazott2
     writeFile "09.labor/szoveg_formazott.txt" formazott
 
 -- II. Az [iban.txt](https://www.ms.sapientia.ro/~mgyongyi/Funk_Log/iban.txt) állomány IBAN kódokat tartalmaz. Írjunk egy-egy Haskell függvényt, amely
@@ -140,7 +140,7 @@ data Szemely = Szemely {
 } deriving (Show)
 
 data Nevnap = Nevnap {
-    nevnapNev:: String, 
+    nevnapNev:: String,
     datumok:: [String]
 }
 
@@ -204,7 +204,7 @@ getNameDays :: [Nevnap] -> [Char] -> [String]
 getNameDays [] knevSg = error ("Nincs " ++ knevSg ++ " nevnap")
 getNameDays (n:maradek) knevSg
     | nevnapNev n == map toLower knevSg = datumok n
-    | otherwise = getNameDays maradek knevSg 
+    | otherwise = getNameDays maradek knevSg
 
 getNameDaysM :: NevnapM -> String -> [String]
 getNameDaysM nevmap name = Map.findWithDefault [] (map toLower name) nevmap
@@ -229,7 +229,7 @@ printPersonM nevMap (Szemely vNev kNev datum) = do
     then putStrLn "  Névnap: nincs adat"
     else putStrLn $ "  Névnap(ok): " ++ unwords nnap
 
-mainIII = do 
+mainIII = do
   szemelyekFajl <- readFile "09.labor/szemelyek.txt"
   nevnapokFajl <- readFile "09.labor/nevnapok.txt"
 
