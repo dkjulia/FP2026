@@ -1,0 +1,57 @@
+[
+    {
+        "evjarat": 2018,
+        "gyartmany": "Toyota",
+        "modell": "Corolla"
+    },
+    {
+        "evjarat": 2016,
+        "gyartmany": "Toyota",
+        "modell": "Yaris"
+    },
+    {
+        "evjarat": 2021,
+        "gyartmany": "Toyota",
+        "modell": "Rav4"
+    },
+    {
+        "evjarat": 2015,
+        "gyartmany": "Ford",
+        "modell": "Focus"
+    },
+    {
+        "evjarat": 2014,
+        "gyartmany": "Ford",
+        "modell": "Fiesta"
+    },
+    {
+        "evjarat": 2019,
+        "gyartmany": "Ford",
+        "modell": "Mondeo"
+    },
+    {
+        "evjarat": 2020,
+        "gyartmany": "Bmw",
+        "modell": "X5"
+    },
+    {
+        "evjarat": 2017,
+        "gyartmany": "Bmw",
+        "modell": "320d"
+    },
+    {
+        "evjarat": 2022,
+        "gyartmany": "Bmw",
+        "modell": "X3"
+    },
+    {
+        "evjarat": 2017,
+        "gyartmany": "Audi",
+        "modell": "A4"
+    },
+    {
+        "evjarat": 2020,
+        "gyartmany": "Audi",
+        "modell": "A6"
+    }
+]

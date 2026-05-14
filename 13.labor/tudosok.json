@@ -1,0 +1,21 @@
+{
+    "tudosok": [
+        {
+            "nev": "Euler",
+            "nemzetiseg": "svajc",
+            "szEv": 1707,
+            "hEv": 1783
+        },
+        {
+            "nev": "Bolyai Janos",
+            "nemzetiseg": "magyar",
+            "szEv": 1802,
+            "hEv": 1860
+        },
+        {
+            "nev": "Perelman",
+            "nemzetiseg": "orosz",
+            "szEv": 1966
+        }
+    ]
+}

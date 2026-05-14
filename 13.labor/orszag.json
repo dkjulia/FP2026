@@ -1,0 +1,31 @@
+[
+    {
+        "betegsegek": [
+            "diabetes"
+        ],
+        "nev": "John Smith",
+        "szuletesiEv": 1988
+    },
+    {
+        "betegsegek": [
+            "asztma",
+            "ekcema"
+        ],
+        "nev": "Emma Brown",
+        "szuletesiEv": 1992
+    },
+    {
+        "betegsegek": [
+            "hipertonia"
+        ],
+        "nev": "Oliver White",
+        "szuletesiEv": 1970
+    },
+    {
+        "betegsegek": [
+            "migren"
+        ],
+        "nev": "Liam Taylor",
+        "szuletesiEv": 1985
+    }
+]
