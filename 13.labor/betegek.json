@@ -1,0 +1,164 @@
+{
+    "betegek": [
+        {
+            "bNev": "Kovacs Anna",
+            "bOrszag": "Romania",
+            "bSzuletesiEv": 1980,
+            "bBetegsegek": [
+                "diabetes",
+                "hipertonia"
+            ]
+        },
+        {
+            "bNev": "Nagy Bela",
+            "bOrszag": "Romania",
+            "bSzuletesiEv": 1975,
+            "bBetegsegek": [
+                "aszthma"
+            ]
+        },
+        {
+            "bNev": "Szabo Maria",
+            "bOrszag": "Romania",
+            "bSzuletesiEv": 1990,
+            "bBetegsegek": [
+                "migren",
+                "allergia",
+                "aszthma"
+            ]
+        },
+        {
+            "bNev": "Toth Istvan",
+            "bOrszag": "Romania",
+            "bSzuletesiEv": 1965,
+            "bBetegsegek": [
+                "szivbetegseg"
+            ]
+        },
+        {
+            "bNev": "John Smith",
+            "bOrszag": "UK",
+            "bSzuletesiEv": 1988,
+            "bBetegsegek": [
+                "diabetes"
+            ]
+        },
+        {
+            "bNev": "Emma Brown",
+            "bOrszag": "UK",
+            "bSzuletesiEv": 1992,
+            "bBetegsegek": [
+                "asztma",
+                "ekcema"
+            ]
+        },
+        {
+            "bNev": "Oliver White",
+            "bOrszag": "UK",
+            "bSzuletesiEv": 1970,
+            "bBetegsegek": [
+                "hipertonia"
+            ]
+        },
+        {
+            "bNev": "Liam Taylor",
+            "bOrszag": "UK",
+            "bSzuletesiEv": 1985,
+            "bBetegsegek": [
+                "migren"
+            ]
+        },
+        {
+            "bNev": "Hans Mueller",
+            "bOrszag": "Germany",
+            "bSzuletesiEv": 1978,
+            "bBetegsegek": [
+                "diabetes",
+                "szivbetegseg"
+            ]
+        },
+        {
+            "bNev": "Anna Schmidt",
+            "bOrszag": "Germany",
+            "bSzuletesiEv": 1995,
+            "bBetegsegek": [
+                "allergia"
+            ]
+        },
+        {
+            "bNev": "Karl Weber",
+            "bOrszag": "Germany",
+            "bSzuletesiEv": 1960,
+            "bBetegsegek": [
+                "asztma"
+            ]
+        },
+        {
+            "bNev": "Pierre Dubois",
+            "bOrszag": "France",
+            "bSzuletesiEv": 1983,
+            "bBetegsegek": [
+                "migren"
+            ]
+        },
+        {
+            "bNev": "Claire Martin",
+            "bOrszag": "France",
+            "bSzuletesiEv": 1991,
+            "bBetegsegek": [
+                "ekcema",
+                "allergia"
+            ]
+        },
+        {
+            "bNev": "Louis Bernard",
+            "bOrszag": "France",
+            "bSzuletesiEv": 1972,
+            "bBetegsegek": [
+                "diabetes"
+            ]
+        },
+        {
+            "bNev": "Mario Rossi",
+            "bOrszag": "Italy",
+            "bSzuletesiEv": 1980,
+            "bBetegsegek": [
+                "szivbetegseg"
+            ]
+        },
+        {
+            "bNev": "Giulia Bianchi",
+            "bOrszag": "Italy",
+            "bSzuletesiEv": 1993,
+            "bBetegsegek": [
+                "asztma"
+            ]
+        },
+        {
+            "bNev": "Luca Ferrari",
+            "bOrszag": "Italy",
+            "bSzuletesiEv": 1975,
+            "bBetegsegek": [
+                "hipertonia",
+                "diabetes"
+            ]
+        },
+        {
+            "bNev": "Jan Kowalski",
+            "bOrszag": "Poland",
+            "bSzuletesiEv": 1987,
+            "bBetegsegek": [
+                "allergia"
+            ]
+        },
+        {
+            "bNev": "Anna Nowak",
+            "bOrszag": "Poland",
+            "bSzuletesiEv": 1990,
+            "bBetegsegek": [
+                "migren",
+                "asztma"
+            ]
+        }
+    ]
+}

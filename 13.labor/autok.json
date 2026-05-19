@@ -1,0 +1,59 @@
+{
+    "autok": [
+        {
+            "gyartmany": "toyota",
+            "modell": "corolla",
+            "evjarat": 2018
+        },
+        {
+            "gyartmany": "toyota",
+            "modell": "yaris",
+            "evjarat": 2016
+        },
+        {
+            "gyartmany": "toyota",
+            "modell": "rav4",
+            "evjarat": 2021
+        },
+        {
+            "gyartmany": "ford",
+            "modell": "focus",
+            "evjarat": 2015
+        },
+        {
+            "gyartmany": "ford",
+            "modell": "fiesta",
+            "evjarat": 2014
+        },
+        {
+            "gyartmany": "ford",
+            "modell": "mondeo",
+            "evjarat": 2019
+        },
+        {
+            "gyartmany": "bmw",
+            "modell": "x5",
+            "evjarat": 2020
+        },
+        {
+            "gyartmany": "bmw",
+            "modell": "320d",
+            "evjarat": 2017
+        },
+        {
+            "gyartmany": "bmw",
+            "modell": "x3",
+            "evjarat": 2022
+        },
+        {
+            "gyartmany": "audi",
+            "modell": "a4",
+            "evjarat": 2017
+        },
+        {
+            "gyartmany": "audi",
+            "modell": "a6",
+            "evjarat": 2020
+        }
+    ]
+}
