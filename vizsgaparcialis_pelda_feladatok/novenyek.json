@@ -1,0 +1,144 @@
+{
+    "novenyek": [
+        {
+            "nev": "Rozsa",
+            "tipus": "Virag",
+            "vizigeny": "kozepes",
+            "evelo": true,
+            "magassag": 120
+        },
+        {
+            "nev": "Tulipan",
+            "tipus": "Virag",
+            "vizigeny": "alacsony",
+            "evelo": false,
+            "magassag": 40
+        },
+        {
+            "nev": "Napraforgo",
+            "tipus": "Virag",
+            "vizigeny": "magas",
+            "evelo": false,
+            "magassag": 250
+        },
+        {
+            "nev": "Almafa",
+            "tipus": "Fa",
+            "vizigeny": "kozepes",
+            "evelo": true,
+            "magassag": 500
+        },
+        {
+            "nev": "Barackfa",
+            "tipus": "Fa",
+            "vizigeny": "kozepes",
+            "evelo": true,
+            "magassag": 450
+        },
+        {
+            "nev": "Fenyofa",
+            "tipus": "Fa",
+            "vizigeny": "alacsony",
+            "evelo": true,
+            "magassag": 800
+        },
+        {
+            "nev": "Kaktusz",
+            "tipus": "Pozsgas",
+            "vizigeny": "nagyon alacsony",
+            "evelo": true,
+            "magassag": 60
+        },
+        {
+            "nev": "Paparotya",
+            "tipus": "Levél",
+            "vizigeny": "magas",
+            "evelo": true,
+            "magassag": 90
+        },
+        {
+            "nev": "Levendula",
+            "tipus": "Virag",
+            "vizigeny": "alacsony",
+            "evelo": true,
+            "magassag": 70
+        },
+        {
+            "nev": "Rozmaring",
+            "tipus": "Fuszernoveny",
+            "vizigeny": "alacsony",
+            "evelo": true,
+            "magassag": 80
+        },
+        {
+            "nev": "Bazsalikom",
+            "tipus": "Fuszernoveny",
+            "vizigeny": "kozepes",
+            "evelo": false,
+            "magassag": 45
+        },
+        {
+            "nev": "Menta",
+            "tipus": "Fuszernoveny",
+            "vizigeny": "magas",
+            "evelo": true,
+            "magassag": 60
+        },
+        {
+            "nev": "Orchidea",
+            "tipus": "Virag",
+            "vizigeny": "magas",
+            "evelo": true,
+            "magassag": 55
+        },
+        {
+            "nev": "Liliom",
+            "tipus": "Virag",
+            "vizigeny": "kozepes",
+            "evelo": true,
+            "magassag": 110
+        },
+        {
+            "nev": "Tuzhelyvirag",
+            "tipus": "Virag",
+            "vizigeny": "alacsony",
+            "evelo": true,
+            "magassag": 30
+        },
+        {
+            "nev": "Juharfa",
+            "tipus": "Fa",
+            "vizigeny": "kozepes",
+            "evelo": true,
+            "magassag": 600
+        },
+        {
+            "nev": "Bambusz",
+            "tipus": "Fu",
+            "vizigeny": "magas",
+            "evelo": true,
+            "magassag": 700
+        },
+        {
+            "nev": "Pitypang",
+            "tipus": "Virag",
+            "vizigeny": "alacsony",
+            "evelo": false,
+            "magassag": 25
+        },
+        {
+            "nev": "Ibolya",
+            "tipus": "Virag",
+            "vizigeny": "kozepes",
+            "evelo": true,
+            "magassag": 20
+        },
+        {
+            "nev": "Cikoria",
+            "tipus": "Virag",
+            "vizigeny": "kozepes",
+            "evelo": true,
+            "magassag": 100
+        }
+    ]
+}

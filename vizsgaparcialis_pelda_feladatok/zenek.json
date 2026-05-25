@@ -1,0 +1,84 @@
+{
+    "dalok": [
+        {
+            "cim": "Bohemian Rhapsody",
+            "eloado": "Queen",
+            "album": "A Night at the Opera",
+            "hossz": 354,
+            "mufaj": "Rock",
+            "ev": 1975
+        },
+        {
+            "cim": "Shape of You",
+            "eloado": "Ed Sheeran",
+            "album": "Divide",
+            "hossz": 233,
+            "mufaj": "Pop",
+            "ev": 2017
+        },
+        {
+            "cim": "Billie Jean",
+            "eloado": "Michael Jackson",
+            "album": "Thriller",
+            "hossz": 294,
+            "mufaj": "Pop",
+            "ev": 1982
+        },
+        {
+            "cim": "Smells Like Teen Spirit",
+            "eloado": "Nirvana",
+            "album": "Nevermind",
+            "hossz": 301,
+            "mufaj": "Grunge",
+            "ev": 1991
+        },
+        {
+            "cim": "Hotel California",
+            "eloado": "Eagles",
+            "album": "Hotel California",
+            "hossz": 390,
+            "mufaj": "Rock",
+            "ev": 1976
+        },
+        {
+            "cim": "Rolling in the Deep",
+            "eloado": "Adele",
+            "album": "21",
+            "hossz": 228,
+            "mufaj": "Soul",
+            "ev": 2010
+        },
+        {
+            "cim": "Thunderstruck",
+            "eloado": "AC/DC",
+            "album": "The Razors Edge",
+            "hossz": 292,
+            "mufaj": "Rock",
+            "ev": 1990
+        },
+        {
+            "cim": "Bad Guy",
+            "eloado": "Billie Eilish",
+            "album": "When We All Fall Asleep",
+            "hossz": 194,
+            "mufaj": "Pop",
+            "ev": 2019
+        },
+        {
+            "cim": "Lose Yourself",
+            "eloado": "Eminem",
+            "album": "8 Mile",
+            "hossz": 326,
+            "mufaj": "Hip-Hop",
+            "ev": 2002
+        },
+        {
+            "cim": "Numb",
+            "eloado": "Linkin Park",
+            "album": "Meteora",
+            "hossz": 185,
+            "mufaj": "Rock",
+            "ev": 2003
+        }
+    ]
+}

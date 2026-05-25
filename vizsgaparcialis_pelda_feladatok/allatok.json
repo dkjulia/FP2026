@@ -1,0 +1,109 @@
+{
+    "allatok": [
+        {
+            "nev": "Oroszlan",
+            "faj": "Macskafelek",
+            "eletkor": 8,
+            "veszelyeztetett": true,
+            "szarmazas": "Afrika"
+        },
+        {
+            "nev": "Tigris",
+            "faj": "Macskafelek",
+            "eletkor": 10,
+            "veszelyeztetett": true,
+            "szarmazas": "Asia"
+        },
+        {
+            "nev": "Elefant",
+            "faj": "Pachyderm",
+            "eletkor": 25,
+            "veszelyeztetett": true,
+            "szarmazas": "Afrika"
+        },
+        {
+            "nev": "Zsiraf",
+            "faj": "Pataskoruak",
+            "eletkor": 12,
+            "veszelyeztetett": false,
+            "szarmazas": "Afrika"
+        },
+        {
+            "nev": "Zebra",
+            "faj": "Pataskoruak",
+            "eletkor": 7,
+            "veszelyeztetett": false,
+            "szarmazas": "Afrika"
+        },
+        {
+            "nev": "Farkas",
+            "faj": "Kutyaalakok",
+            "eletkor": 6,
+            "veszelyeztetett": false,
+            "szarmazas": "Europa"
+        },
+        {
+            "nev": "Medve",
+            "faj": "Emlos",
+            "eletkor": 15,
+            "veszelyeztetett": false,
+            "szarmazas": "Europa"
+        },
+        {
+            "nev": "Panda",
+            "faj": "Emlos",
+            "eletkor": 9,
+            "veszelyeztetett": true,
+            "szarmazas": "Asia"
+        },
+        {
+            "nev": "Kenguru",
+            "faj": "Emlos",
+            "eletkor": 5,
+            "veszelyeztetett": false,
+            "szarmazas": "Australia"
+        },
+        {
+            "nev": "Koala",
+            "faj": "Emlos",
+            "eletkor": 4,
+            "veszelyeztetett": true,
+            "szarmazas": "Australia"
+        },
+        {
+            "nev": "Krokodil",
+            "faj": "Hüllo",
+            "eletkor": 40,
+            "veszelyeztetett": false,
+            "szarmazas": "Afrika"
+        },
+        {
+            "nev": "Teknosbeka",
+            "faj": "Hüllo",
+            "eletkor": 60,
+            "veszelyeztetett": true,
+            "szarmazas": "Global"
+        },
+        {
+            "nev": "Papagaj",
+            "faj": "Madar",
+            "eletkor": 20,
+            "veszelyeztetett": false,
+            "szarmazas": "Dél-Amerika"
+        },
+        {
+            "nev": "Sas",
+            "faj": "Madar",
+            "eletkor": 18,
+            "veszelyeztetett": false,
+            "szarmazas": "Europa"
+        },
+        {
+            "nev": "Pingvin",
+            "faj": "Madar",
+            "eletkor": 11,
+            "veszelyeztetett": true,
+            "szarmazas": "Antarktisz"
+        }
+    ]
+}

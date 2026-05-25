@@ -1,0 +1,74 @@
+{
+    "termekek": [
+        {
+            "nev": "Alma",
+            "kategoria": "Gyumolcs",
+            "ar": 3.5,
+            "mennyiseg": 120,
+            "lejart": false
+        },
+        {
+            "nev": "Banán",
+            "kategoria": "Gyumolcs",
+            "ar": 4.2,
+            "mennyiseg": 80,
+            "lejart": false
+        },
+        {
+            "nev": "Kenyér",
+            "kategoria": "Pekaru",
+            "ar": 2.0,
+            "mennyiseg": 50,
+            "lejart": true
+        },
+        {
+            "nev": "Tej",
+            "kategoria": "Tejtermek",
+            "ar": 3.0,
+            "mennyiseg": 70,
+            "lejart": true
+        },
+        {
+            "nev": "Sajt",
+            "kategoria": "Tejtermek",
+            "ar": 8.5,
+            "mennyiseg": 40,
+            "lejart": false
+        },
+        {
+            "nev": "Csirke",
+            "kategoria": "Hus",
+            "ar": 12.0,
+            "mennyiseg": 30,
+            "lejart": false
+        },
+        {
+            "nev": "Marhahus",
+            "kategoria": "Hus",
+            "ar": 15.0,
+            "mennyiseg": 25,
+            "lejart": false
+        },
+        {
+            "nev": "Paradicsom",
+            "kategoria": "Zoldseg",
+            "ar": 3.8,
+            "mennyiseg": 90,
+            "lejart": false
+        },
+        {
+            "nev": "Uborka",
+            "kategoria": "Zoldseg",
+            "ar": 2.9,
+            "mennyiseg": 60,
+            "lejart": false
+        },
+        {
+            "nev": "Jogurt",
+            "kategoria": "Tejtermek",
+            "ar": 2.5,
+            "mennyiseg": 100,
+            "lejart": true
+        }
+    ]
+}
