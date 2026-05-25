@@ -1,0 +1,169 @@
+{
+    "filmek": [
+        {
+            "cim": "Inception",
+            "rendezo": "Christopher Nolan",
+            "mufaj": "Sci-Fi",
+            "ev": 2010,
+            "ertekeles": 9.1,
+            "szineszek": [
+                "Leonardo DiCaprio",
+                "Tom Hardy"
+            ]
+        },
+        {
+            "cim": "Interstellar",
+            "rendezo": "Christopher Nolan",
+            "mufaj": "Sci-Fi",
+            "ev": 2014,
+            "ertekeles": 9.3,
+            "szineszek": [
+                "Matthew McConaughey",
+                "Anne Hathaway"
+            ]
+        },
+        {
+            "cim": "The Dark Knight",
+            "rendezo": "Christopher Nolan",
+            "mufaj": "Action",
+            "ev": 2008,
+            "ertekeles": 9.4,
+            "szineszek": [
+                "Christian Bale",
+                "Heath Ledger"
+            ]
+        },
+        {
+            "cim": "Pulp Fiction",
+            "rendezo": "Quentin Tarantino",
+            "mufaj": "Crime",
+            "ev": 1994,
+            "ertekeles": 8.9,
+            "szineszek": [
+                "John Travolta",
+                "Samuel L. Jackson"
+            ]
+        },
+        {
+            "cim": "Kill Bill",
+            "rendezo": "Quentin Tarantino",
+            "mufaj": "Action",
+            "ev": 2003,
+            "ertekeles": 8.4,
+            "szineszek": [
+                "Uma Thurman",
+                "Lucy Liu"
+            ]
+        },
+        {
+            "cim": "Django Unchained",
+            "rendezo": "Quentin Tarantino",
+            "mufaj": "Western",
+            "ev": 2012,
+            "ertekeles": 8.7,
+            "szineszek": [
+                "Jamie Foxx",
+                "Leonardo DiCaprio"
+            ]
+        },
+        {
+            "cim": "The Matrix",
+            "rendezo": "Wachowski Sisters",
+            "mufaj": "Sci-Fi",
+            "ev": 1999,
+            "ertekeles": 8.8,
+            "szineszek": [
+                "Keanu Reeves",
+                "Laurence Fishburne"
+            ]
+        },
+        {
+            "cim": "John Wick",
+            "rendezo": "Chad Stahelski",
+            "mufaj": "Action",
+            "ev": 2014,
+            "ertekeles": 8.1,
+            "szineszek": [
+                "Keanu Reeves",
+                "Ian McShane"
+            ]
+        },
+        {
+            "cim": "Titanic",
+            "rendezo": "James Cameron",
+            "mufaj": "Drama",
+            "ev": 1997,
+            "ertekeles": 8.0,
+            "szineszek": [
+                "Leonardo DiCaprio",
+                "Kate Winslet"
+            ]
+        },
+        {
+            "cim": "Avatar",
+            "rendezo": "James Cameron",
+            "mufaj": "Sci-Fi",
+            "ev": 2009,
+            "ertekeles": 7.9,
+            "szineszek": [
+                "Sam Worthington",
+                "Zoe Saldana"
+            ]
+        },
+        {
+            "cim": "Gladiator",
+            "rendezo": "Ridley Scott",
+            "mufaj": "Historical",
+            "ev": 2000,
+            "ertekeles": 8.6,
+            "szineszek": [
+                "Russell Crowe",
+                "Joaquin Phoenix"
+            ]
+        },
+        {
+            "cim": "Alien",
+            "rendezo": "Ridley Scott",
+            "mufaj": "Horror",
+            "ev": 1979,
+            "ertekeles": 8.5,
+            "szineszek": [
+                "Sigourney Weaver",
+                "Tom Skerritt"
+            ]
+        },
+        {
+            "cim": "The Godfather",
+            "rendezo": "Francis Ford Coppola",
+            "mufaj": "Crime",
+            "ev": 1972,
+            "ertekeles": 9.5,
+            "szineszek": [
+                "Al Pacino",
+                "Marlon Brando"
+            ]
+        },
+        {
+            "cim": "The Shawshank Redemption",
+            "rendezo": "Frank Darabont",
+            "mufaj": "Drama",
+            "ev": 1994,
+            "ertekeles": 9.6,
+            "szineszek": [
+                "Tim Robbins",
+                "Morgan Freeman"
+            ]
+        },
+        {
+            "cim": "Forrest Gump",
+            "rendezo": "Robert Zemeckis",
+            "mufaj": "Drama",
+            "ev": 1994,
+            "ertekeles": 8.9,
+            "szineszek": [
+                "Tom Hanks",
+                "Robin Wright"
+            ]
+        }
+    ]
+}
