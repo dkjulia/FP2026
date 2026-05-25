@@ -1,0 +1,10 @@
+1001#Kiss Anna#Marosvasarhely,Foutca 12#kenyer:2|tej:3|alma:5#125.50
+1002#Nagy Bela#Kolozsvar,Petofi ut 7#sajt:1|vaj:2|tej:1#89.90
+1003#Szabo Emese#Budapest,Kossuth ter 3#alma:10|banan:4|narancs:6#210.75
+1004#Farkas David#Debrecen,Bem ut 22#hus:3|rizs:2|viz:12#340.00
+1005#Toth Csilla#Szeged,Rozsa ut 8#cukor:5|liszt:3|olaj:2#178.20
+1006#Molnar Gabor#Pecs,Fo ter 1#tea:4|kave:2|tej:5#145.60
+1007#Lakatos Istvan#Brasso,Muzeum ut 9#kenyer:1|vaj:1|sajt:2#95.40
+1008#Simon Helga#Temesvar,Eroilor 15#alma:7|viz:6|csokolade:8#230.10
+1009#Kovacs Karoly#Arad,Republicii 11#teszta:4|paradicsom:5|sajt:3#199.95
+1010#Varga Nora#Bukarest,Libertatii 20#csirke:2|krumpli:10|viz:4#310.80

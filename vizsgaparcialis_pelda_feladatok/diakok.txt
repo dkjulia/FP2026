@@ -1,0 +1,10 @@
+Anna;Informatika;2;9.45;32
+Csilla;Informatika;3;9.80;35
+Emese;Informatika;1;8.74;30
+Helga;Informatika;2;9.25;31
+Karoly;Informatika;4;9.95;38
+Bela;Matematika;1;7.80;25
+David;Fizika;2;8.10;27
+Ferenc;Biologia;3;8.90;29
+Gabor;Matematika;2;9.10;33
+Istvan;Fizika;4;8.60;30

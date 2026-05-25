@@ -1,0 +1,10 @@
+Rozsa,Virag,kozepes,True,120
+Tulipan,Virag,alacsony,False,40
+Napraforgo,Virag,magas,False,250
+Almafa,Fa,kozepes,True,500
+Barackfa,Fa,kozepes,True,450
+Fenyofa,Fa,alacsony,True,800
+Kaktusz,Pozsgas,nagyon_alacsony,True,60
+Paparotya,Level,magas,True,90
+Levendula,Virag,alacsony,True,70
+Rozmaring,Fuszernoveny,alacsony,True,80
