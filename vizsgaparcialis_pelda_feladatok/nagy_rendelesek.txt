@@ -1,0 +1,31 @@
+1003: Szabo Emese, Budapest Kossuth ter 3, rendelesek:
+	- alma X 10
+	- banan X 4
+	- narancs X 6
+	vegosszeg: 210.75
+1004: Farkas David, Debrecen Bem ut 22, rendelesek:
+	- hus X 3
+	- rizs X 2
+	- viz X 12
+	vegosszeg: 340.0
+1008: Simon Helga, Temesvar Eroilor 15, rendelesek:
+	- alma X 7
+	- viz X 6
+	- csokolade X 8
+	- paradicsom X 5
+	vegosszeg: 230.1
+1010: Varga Nora, Bukarest Libertatii 20, rendelesek:
+	- csirke X 2
+	- krumpli X 10
+	- viz X 4
+	vegosszeg: 310.8
+1011: Varga Nora, Bukarest Libertatii 20, rendelesek:
+	- csirke X 1
+	- krumpli X 5
+	- viz X 4
+	vegosszeg: 270.4
+1012: Varga Nora, Bukarest Libertatii 20, rendelesek:
+	- csirke X 6
+	- krumpli X 10
+	- viz X 4
+	vegosszeg: 402.24

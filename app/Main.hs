@@ -9,6 +9,8 @@ import qualified Lab8
 import qualified Lab9 
 import qualified Lab13
 import qualified Feladatok2 
+import qualified Kiegeszito
+import qualified Kiegeszito2
 
 main :: IO ()
 main = do
@@ -19,4 +21,6 @@ main = do
     "lab9" -> Lab9.mainI
     "lab13" -> Lab13.mainI
     "feladatok2" -> Feladatok2.mainI 
+    "kiegeszito" -> Kiegeszito.main
+    "kiegeszito2" -> Kiegeszito2.main
     _       -> die $ "Unknown executable: " ++ progName ++ ". Use `cabal run lab7` or `cabal run lab8`."

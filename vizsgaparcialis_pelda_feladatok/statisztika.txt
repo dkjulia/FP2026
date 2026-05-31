@@ -1,0 +1,9 @@
+Rendelesek szama 13
+Atlagos rendelesi ertek 213.61846153846153
+Legdragabb rendeles 1012: Varga Nora, Bukarest Libertatii 20, rendelesek:
+	- csirke X 6
+	- krumpli X 10
+	- viz X 4
+	vegosszeg: 402.24
+Legnepszerubb termek ("viz",30)
+Legtobb rendelest leado varos ("Bukarest",3)

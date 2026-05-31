@@ -1,0 +1,10 @@
+Marosvasarhely - 1 - 125.5
+Kolozsvar - 1 - 89.9
+Budapest - 1 - 210.75
+Debrecen - 1 - 340.0
+Szeged - 2 - 178.2
+Pecs - 1 - 145.6
+Brasso - 1 - 95.4
+Temesvar - 1 - 230.1
+Arad - 1 - 199.95
+Bukarest - 3 - 327.81333333333333
